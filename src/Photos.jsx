@@ -1,5 +1,4 @@
-function Photos(props) {
-
+export default function Photos(props) {
   return (
     props.photos.map((photo) => (
       <div key={photo.img_url}>
@@ -11,5 +10,3 @@ function Photos(props) {
     ))
   )
 }
-
-export default Photos;
